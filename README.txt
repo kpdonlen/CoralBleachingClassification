@@ -1,6 +1,6 @@
 I created this side project to classify images of coral as bleached or healthy. 
 
-The coralid.py file is the code to train the initial CNN. It will require you to read a directory that contains the images you wish to train on. Within this directory, there will need to be two folders, one that has all of the bleached coral and the other that has all of the healthy coral. This is how the model determines the correct answer during training. It uses transfer learning courtesy of resnet151 trained on imagenet.
+The coralid.py file is the code to train the initial CNN. It will require you to read a directory that contains the images you wish to train on. Within this directory, there will need to be two folders, one that has all of the bleached coral and the other that has all of the healthy coral. This is how the model determines the correct answer during training. It uses transfer learning courtesy of resnet152 trained on imagenet.
 
 After you train a model and have saved it, you can then make predictions on images the model has not seen before using the imagetesting.py file
 
